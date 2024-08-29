@@ -1,5 +1,5 @@
 function ok = onlyOneStructFieldSubsetNonEmpty(S, field_names, throw, inputname)
-% checks if a subset of fields in a structure have only one non-emty member
+% checks if a subset of fields in a structure have only one non-empty member
 %
 % Syntax
 %
@@ -30,7 +30,7 @@ function ok = onlyOneStructFieldSubsetNonEmpty(S, field_names, throw, inputname)
 %
 %
 %
-% See Also: 
+% See Also: check.structHasAllFields, check.allowedStringInputs
 %
 
     if nargin < 4
